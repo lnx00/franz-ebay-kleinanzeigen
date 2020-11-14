@@ -1,0 +1,23 @@
+{
+  "id": "ebayclassifieds",
+  "name": "Kleinanzeigen",
+  "version": "0.1.0",
+  "description": "Kleinanzeigen",
+  "main": "index.js",
+  "author": "lnx00",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.ebay-kleinanzeigen.de/m-nachrichten.html",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}

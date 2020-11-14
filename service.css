@@ -1,0 +1,28 @@
+/* Disable ads */
+#msgbox > div.site-base > div.site-base--left-banner,
+#msgbox > div.site-base > div.site-base--right-banner
+#my-msgbox-atf,
+#liberty-my_messages-top-banner {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+/* Remove unnecessary elements*/
+#site-header,
+#site-footer,
+#site-content > div.a-horizontal-padded.l-container > h1 {
+  display: none;
+}
+
+/* Force fullscreen */
+#msgbox > div.site-base,
+#msgbox > div.site-base > div.site-base--content,
+#site-content {
+  width: 100%;
+}
+
+/* Workaround: Disable page scrollbar */
+body {
+  overflow-y: hidden;
+}
