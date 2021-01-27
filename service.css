@@ -2,6 +2,7 @@
 #msgbox > div.site-base > div.site-base--left-banner,
 #msgbox > div.site-base > div.site-base--right-banner,
 #my-messagebox-bundle > div.site-base > div.site-base--right-banner,
+#my-messagebox-bundle > div.site-base > div.site-base--left-banner,
 #my-msgbox-atf,
 #liberty-my_messages-top-banner {
   display: none;
@@ -19,6 +20,8 @@
 /* Force fullscreen */
 #msgbox > div.site-base,
 #msgbox > div.site-base > div.site-base--content,
+#my-messagebox-bundle > div.site-base,
+#my-messagebox-bundle > div.site-base > div.site-base--content,
 #site-content {
   width: 100%;
 }
